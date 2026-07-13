@@ -217,12 +217,12 @@ if st.button("🔍 Predict Loan Status", use_container_width=True):
     # Prediction
     prediction, probability = predict_loan(input_df)
 
-    result = prediction[0]
+    result = int(prediction[0])
 
-    confidence = probability[0][result] * 100
+    approved_prob = float(probability[0][0]) * 100
+    rejected_prob = float(probability[0][1]) * 100
 
-    approved_prob = probability[0][0] * 100
-    rejected_prob = probability[0][1] * 100
+    confidence = max(approved_prob, rejected_prob)
     
     
 
@@ -250,7 +250,8 @@ if st.button("🔍 Predict Loan Status", use_container_width=True):
         value=f"{confidence:.2f}%"
     )
 
-    st.progress(confidence / 100)
+    progress_value = min(max(confidence / 100, 0.0), 1.0)
+    st.progress(progress_value)
 
 
     # =====================================================
