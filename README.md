@@ -6,11 +6,11 @@ A Machine Learning web application that predicts whether a loan application is l
 
 ## 🚀 Live Demo
 
-🔗 **Live App:** *(Add your Streamlit Cloud link here after deployment)*
+🔗 **Live App:** *https://loan-prediction-system-ifewscc2b8dhrsqxqpubwp.streamlit.app/*
 
 Example:
 ```
-https://your-app-name.streamlit.app
+https://loan-prediction-system-ifewscc2b8dhrsqxqpubwp.streamlit.app/
 ```
 
 ---
@@ -132,11 +132,13 @@ streamlit run app.py
 
 ### Home Page
 
-*(Add Screenshot Here)*
+<img width="1363" height="608" alt="image" src="https://github.com/user-attachments/assets/62482545-231e-4db4-abc1-1426d3c91ebe" />
+
 
 ### Prediction Result
 
-*(Add Screenshot Here)*
+<img width="1062" height="604" alt="image" src="https://github.com/user-attachments/assets/5382a69f-2ae4-4234-9a87-4caf8e907a15" />
+
 
 ---
 
@@ -162,7 +164,7 @@ Portfolio:
 https://ad1tyaraj.github.io/Portfolio/
 
 LinkedIn:
-*(Add your LinkedIn profile)*
+https://www.linkedin.com/in/aditya-raj-07950a234/
 
 ---
 
